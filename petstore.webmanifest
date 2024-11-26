@@ -1,0 +1,15 @@
+{
+  "name": "Apple Pet Store",
+  "short_name": "petstore",
+  "description": "Apple Official Pet Store",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "PetDepotInteraction.html",
+  "display": "fullscreen",
+  "background_color": "#B12A34"
+}
