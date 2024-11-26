@@ -20,6 +20,10 @@ self.addEventListener("install", (e) => {
   );
 });
 
+self.addEventListener('fetch', (e) => { 
+  console.log('[Service Worker] Fetched resource '+e.request.url); 
+  }); 
+  
 self.addEventListener("fetch", function (e) {
   e.respondWith(
     caches.match(e.request).then(function (r) {
